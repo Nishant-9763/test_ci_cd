@@ -8,6 +8,9 @@ app.get('/', (req, res) => {
 app.get('/ok', (req, res) => {
   res.send('Hello from OK!');
 });
+app.get('/nishant', (req, res) => {
+  res.send('Hello from Nishant!');
+});
 
 app.listen(port, () => {
   console.log(`App running on port ${port}`);
